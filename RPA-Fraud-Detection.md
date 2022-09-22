@@ -1,3 +1,15 @@
+# RPA Fraud Detection
+
+Reputable Product Agency (RPA) has started receiving complaints from their credit card processor about fraudulent transactions. Help your finance department identify potentially risky transactions before they finish processing.
+
+This dataset contains a single table, transaction_data.
+
+The schema of this table is available [here](https://content.codecademy.com/courses/sql-queries-fraud/transaction-data.png).
+
+
+## Solutions 
+
+```
 -- 1
 -- What are the column names?
 SELECT *
@@ -51,3 +63,4 @@ SELECT *
 FROM transaction_data
 WHERE zip LIKE '30%'
   OR zip LIKE '31%';
+```
